@@ -177,6 +177,7 @@ h5 {
 h6 {
 	margin-bottom: 10px;
 	font-size: 15px;
+	outline: none;
 	color: #000000;
 }
 
