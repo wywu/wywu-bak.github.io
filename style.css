@@ -176,7 +176,15 @@ h5 {
 
 
 h6 {
-	color: #E74C3C;
+	color: #CD5C5C;
+}
+
+h6:hover {
+	color: #CD5C5C;
+}
+
+h6:focus {
+	outline: none;
 }
 
 
