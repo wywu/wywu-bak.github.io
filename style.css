@@ -144,11 +144,11 @@ h1 {
 }
 
 h2 {
+	font-size: 28px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
 	color: #000;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 27px;
 	letter-spacing: 0px;
-	font-weight: normal;
 	padding: 0 0 5px;
 	margin: 0;
 }
