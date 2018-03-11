@@ -175,6 +175,7 @@ h5 {
 }
 
 h6 {
+	padding-bottom: 0px;
 	font-size: 15px;
 	color: #000000;
 }
