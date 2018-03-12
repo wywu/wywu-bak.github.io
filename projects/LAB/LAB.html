@@ -1,14 +1,13 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0059)http://personal.ie.cuhk.edu.hk/~ys014/projects/Faceness/Faceness/ -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>From Facial Parts Responses to Face Detection: A Deep Learning Approach</title>
+<title>Look at Boundary: A Boundary-Aware Face Alignment Algorithm</title>
 
 <!-- Meta tags for search engines to crawl -->
 <meta name="robots" content="index,follow">
-<meta name="description" content="In this paper, we propose a novel deep convolutional network (DCN) that achieves outstanding performance on FDDB, PASCAL Face, and AFW. Specifically, our method achieves a high recall rate of 90.99% on the challenging FDDB benchmark, outperforming the state-of-the-art method by a large margin of 2.91%. Importantly, we consider finding faces from a new perspective through scoring facial parts responses by their spatial structure and arrangement. The scoring mechanism is carefully formulated considering challenging cases where faces are only partially visible. This consideration allows our network to detect faces under severe occlusion and unconstrained pose variation, which are the main difficulty and bottleneck of most existing face detection approaches. We show that despite the use of DCN, our network can achieve practical runtime speed.">
+<meta name="description" content="We present a novel boundary-aware face alignment algorithm by utilising boundary lines as the geometric structure of a human face to help facial landmark localization. Unlike the conventional heatmap based method and regression based method, our approach derives face landmarks from boundary lines which remove the ambiguities in the landmark definition. Three questions are explored and answered by this work: 1. Why using boundary? 2. How to use boundary? 3. What is the relationship between boundary estimation and landmarks localization? Our boundary-aware face alignment algorithm achieves 3.49% mean error rate on 300-W fullset, which outperforms the state-of-art work by a large margin. Our method can also easily integrate information from other datasets. By utilising boundary information of 300-W dataset, our method achieves 3.92% mean error rate with 0.39% failure rate on COFW dataset, and 1.25% mean error rate on AFLW-Full dataset. Moreover, we propose a new dataset to unify training and testing across different factors, including poses, expressions, illuminations, makeups, occlusions, and blurriness.">
 <meta name="keywords" content="face detection; face attributes; faceness; deep learning; Convolutional network; computer vision;">
-<link rel="author" href="personal.ie.cuhk.edu.hk/~ys014/">
+<link rel="author" href="http://wywu.github.io">
 
 <!-- Fonts and stuff -->
 <link href="./support/css" rel="stylesheet" type="text/css">
@@ -19,37 +18,36 @@
 
 </head>
 
+
 <body>
   <div id="content">
     <div id="content-inner">
       
       <div class="section head">
-	<h1>From Facial Parts Responses to Face Detection: A Deep Learning Approach</h1>
+	<h1>Look at Boundary: A Boundary-Aware Face Alignment Algorithm</h1>
 
 	<div class="authors">
-	  <a href="http://shuoyang1213.me">Shuo Yang</a>&nbsp;&nbsp;
-	  <a href="http://personal.ie.cuhk.edu.hk/~pluo/">Ping Luo</a>&nbsp;&nbsp;
-	  <a href="http://personal.ie.cuhk.edu.hk/~ccloy/" >Chen Change Loy</a>&nbsp;&nbsp;
-	  <a href="http://www.ie.cuhk.edu.hk/people/xotang.shtml">Xiaoou Tang</a>
+	  <a href="http://wywu.github.io">Wayne Wu</a><sup>1</sup>&nbsp;&nbsp;
+	  <a href="http://shuoyang1213.me">Shuo Yang</a><sup>2</sup>&nbsp;&nbsp;
+	  <a href="">Chen Qian</a><sup>2</sup>&nbsp;&nbsp;
+	  <a href="">Quan Wang</a><sup>2</sup>
 	</div>
 
 	<div class="affiliations">
-	  <a href="http://mmlab.ie.cuhk.edu.hk/">Multimedia Laboratory, </a>
-	  <a href="http://www.ie.cuhk.edu.hk/">Department of Information Engineering, </a>
-	  <a href="www.cuhk.edu.hk">The Chinese University of Hong Kong</a>
+	  <sup>1</sup><a href="http://www.tsinghua.edu.cn/publish/csen/index.html">Tsinghua University </a>
+	  <sup>2</sup><a href="https://www.sensetime.com/?lang=en-us">SenseTime Research</a>
 	</div>
 
-	<div class="venue">International Conference on Computer Vision (<a href="http://pamitc.org/iccv15/" target="_blank">ICCV</a>) 2015, Santiago, Chile</div>
-      </div>
+<!-- 	<div class="venue">International Conference on Computer Vision (<a href="http://pamitc.org/iccv15/" target="_blank">ICCV</a>) 2015, Santiago, Chile</div> -->
+
+	  </div>
 
       
       <center><img src="./support/index.png" border="0" width="85%"></center>
       <div class="section abstract">
 	<h2>Abstract</h2>
 	<p>
-In this paper, we propose a novel deep convolutional network (DCN) that achieves outstanding performance on
-FDDB, PASCAL Face, and AFW. Specifically, our method achieves a high recall rate of 90.99% on the challenging FDDB benchmark, outperforming the state-of-the-art method by a large margin of 2.91%. Importantly, we consider finding faces from a new perspective through scoring facial parts responses by their spatial structure and arrangement. The scoring mechanism is carefully formulated considering challenging cases where faces are only partially visible. This consideration allows our network to detect
-faces under severe occlusion and unconstrained pose variation, which are the main difficulty and bottleneck of most existing face detection approaches. We show that despite the use of DCN, our network can achieve practical runtime speed.
+We present a novel boundary-aware face alignment algorithm by utilising boundary lines as the geometric structure of a human face to help facial landmark localization. Unlike the conventional heatmap based method and regression based method, our approach derives face landmarks from boundary lines which remove the ambiguities in the landmark definition. Three questions are explored and answered by this work: 1. Why using boundary? 2. How to use boundary? 3. What is the relationship between boundary estimation and landmarks localization? Our boundary-aware face alignment algorithm achieves 3.49% mean error rate on 300-W fullset, which outperforms the state-of-art work by a large margin. Our method can also easily integrate information from other datasets. By utilising boundary information of 300-W dataset, our method achieves 3.92% mean error rate with 0.39% failure rate on COFW dataset, and 1.25% mean error rate on AFLW-Full dataset. Moreover, we propose a new dataset to unify training and testing across different factors, including poses, expressions, illuminations, makeups, occlusions, and blurriness.
 	</p>
       </div>
 <div class="section downloads">
@@ -92,11 +90,11 @@ faces under severe occlusion and unconstrained pose variation, which are the mai
 	
 	<div class="section bibtex">
 	  <pre>@inproceedings{yang2015faceness,
- author = {Shuo Yang, Ping Luo, Chen Change Loy, and Xiaoou Tang},
- title = {From Facial Parts Responses to Face Detection: A Deep Learning Approach},
- booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},
- month = December,
- year = {2015}
+ author = {Wayne Wu, Chen Qian, Shuo Yang, Quan Wang},
+ title = {Look at Boundary: A Boundary-Aware Face Alignment Algorithm},
+ booktitle = {Proceedings of Computer Vision and Pattern Recognition (CVPR)},
+ month = June,
+ year = {2018}
 } 
 	</pre>
 	  </div>
@@ -104,7 +102,7 @@ faces under severe occlusion and unconstrained pose variation, which are the mai
 
      <div class="section contact">
 	<h2>Contact</h2>
-	Shuo Yang<br><a href="mailto:shuoyang.1213@gmail.com">shuoyang.1213@gmail.com</a>
+	Wayne Wu<br><a href="mailto:wuwenyan0503@gmail.com">wuwenyan0503@gmail.com</a>
       </div>
     </div>
   </div>
