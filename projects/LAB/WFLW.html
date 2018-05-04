@@ -5,7 +5,7 @@
 
 <!-- Meta tags for search engines to crawl -->
 <meta name="robots" content="index,follow">
-<meta name="description" content="We present a novel boundary-aware face alignment algorithm by utilising boundary lines as the geometric structure of a human face to help facial landmark localisation. Unlike the conventional heatmap based method and regression based method, our approach derives face landmarks from boundary lines which remove the ambiguities in the landmark definition. Three questions are explored and answered by this work: 1. Why using boundary? 2. How to use boundary? 3. What is the relationship between boundary estimation and landmarks localisation? Our boundary-aware face alignment algorithm achieves 3.49% mean error on 300-W Fullset, which outperforms state-of-the-art methods by a large margin. Our method can also easily integrate information from other datasets. By utilising boundary information of 300-W dataset, our method achieves 3.92% mean error with 0.39% failure rate on COFW dataset, and 1.25% mean error on AFLW-Full dataset. Moreover, we propose a new dataset WFLW to unify training and testing across different factors, including poses, expressions, illuminations, makeups, occlusions, and blurriness.">
+<meta name="description" content="Wider Facial Landmarks in-the-wild (WFLW) contains 10000 faces (7500 for training and 2500 for testing) with 98 fully manual annotated landmarks. Apart from landmark annotation, out new dataset includes rich attribute annotations, i.e., occlusion, pose, make-up, illumination, blur and expression for comprehensive analysis of existing algorithms. Compare to previous dataset, faces in the proposed dataset introduce large variations in expression, pose and occlusion. We can simply evaluate the robustness of pose, occlusion, and expression on proposed dataset instead of switching between multiple evaluation protocols in different datasets.">
 <meta name="keywords" content="LAB; WFLW; wider facial landmarks in-the-wild; facial landmark detection; face alignment; face attributes; deep learning; Convolutional network; computer vision;">
 <link rel="author" href="http://wywu.github.io">
 
@@ -40,24 +40,21 @@
 	  <sup>2</sup><a href="https://www.sensetime.com/?lang=en-us">SenseTime Research<br></a>
 	  <sup>3</sup><a href="https://aws.amazon.com/cn/rekognition/">Amazon Rekognition</a>
 	</div>
-
 	<ul id="tabs">
-    	<li><a href="./LAB.html" name="#tab1">LAB</a></li>
-    	<li><a href="./WFLW.html" name="#tab2">WFLW</a></li>  
+		<li><a href="./LAB.html" name="#tab1">LAB</a></li>
+		<li><a href="./WFLW.html" name="#tab2">WFLW</a></li>  
 	</ul>
-
+	</div>
 
 
 <!-- 	<div class="venue">International Conference on Computer Vision (<a href="http://pamitc.org/iccv15/" target="_blank">ICCV</a>) 2015, Santiago, Chile</div> -->
-
-	  </div>
 
       
       <center><img src="./support/index.png" border="0" width="85%"></center>
       <div class="section abstract">
 	<h2>Abstract</h2>
 	<p>
-We present a novel boundary-aware face alignment algorithm by utilising boundary lines as the geometric structure of a human face to help facial landmark localisation. Unlike the conventional heatmap based method and regression based method, our approach derives face landmarks from boundary lines which remove the ambiguities in the landmark definition. Three questions are explored and answered by this work: 1. Why using boundary? 2. How to use boundary? 3. What is the relationship between boundary estimation and landmarks localisation? Our boundary-aware face alignment algorithm achieves 3.49% mean error on 300-W Fullset, which outperforms state-of-the-art methods by a large margin. Our method can also easily integrate information from other datasets. By utilising boundary information of 300-W dataset, our method achieves 3.92% mean error with 0.39% failure rate on COFW dataset, and 1.25% mean error on AFLW-Full dataset. Moreover, we propose a new dataset WFLW to unify training and testing across different factors, including poses, expressions, illuminations, makeups, occlusions, and blurriness.
+Wider Facial Landmarks in-the-wild (WFLW) contains 10000 faces (7500 for training and 2500 for testing) with 98 fully manual annotated landmarks. Apart from landmark annotation, out new dataset includes rich attribute annotations, i.e., occlusion, pose, make-up, illumination, blur and expression for comprehensive analysis of existing algorithms. Compare to previous dataset, faces in the proposed dataset introduce large variations in expression, pose and occlusion. We can simply evaluate the robustness of pose, occlusion, and expression on proposed dataset instead of switching between multiple evaluation protocols in different datasets.
 	</p>
       </div>
 <div class="section downloads">
