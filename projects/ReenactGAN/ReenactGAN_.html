@@ -6,7 +6,7 @@
 <!-- Meta tags for search engines to crawl -->
 <meta name="robots" content="index,follow">
 <meta name="description" content="We present a novel learning-based framework for face reenactment. The proposed method, known as ReenactGAN, is capable of transferring facial movements and expressions from an arbitrary person’s monocular video input to a target person’s video. Instead of performing a direct transfer in the pixel space, which could result in structural artifacts, we first map the source face onto a boundary latent space. A transformer is subsequently used to adapt the source face’s boundary to the target’s boundary. Finally, a target-specific decoder is used to generate the reenacted target face. Thanks to the effective and reliable boundary-based transfer, our method can perform photo-realistic face reenactment. In addition, ReenactGAN is appealing in that the whole reenactment process is purely feed-forward, and thus the reenactment process can run in real-time (80 FPS on one GTX 1080 GPU).">
-<meta name="keywords" content="LAB; WFLW; wider facial landmarks in-the-wild; facial landmark detection; face alignment; face attributes; deep learning; Convolutional network; computer vision;">
+<meta name="keywords" content="ReenactGAN; deep fake; Deep Video Portraits; face reenactment; deep learning; Convolutional network; computer vision;">
 <link rel="author" href="http://wywu.github.io">
 
 <!-- Fonts and stuff -->
@@ -28,21 +28,17 @@
 
 	<div class="authors">
 	  <a href="http://wywu.github.io">Wayne Wu</a><sup>1,2</sup>&nbsp;&nbsp;
+	  <a href="">Cheng Li</a><sup>2</sup>&nbsp;&nbsp;
 	  <a href="">Chen Qian</a><sup>2</sup>&nbsp;&nbsp;
-	  <a href="http://shuoyang1213.me">Shuo Yang</a><sup>3</sup>&nbsp;&nbsp;
-	  <a href="">Quan Wang</a><sup>2</sup>&nbsp;&nbsp;
-	  <a href="">Yici Cai</a><sup>1</sup>&nbsp;&nbsp;
-	  <a href="">Qiang Zhou</a><sup>1</sup>
 	</div>
 
 	<div class="affiliations">
 	  <sup>1</sup><a href="http://www.sist.tsinghua.edu.cn/docinfo_eng/index.jsp">Tsinghua National Laboratory for Information Science and Technology (TNList),<br>Department of Computer Science and Technology, Tsinghua University<br></a>
 	  <sup>2</sup><a href="https://www.sensetime.com/?lang=en-us">SenseTime Research<br></a>
-	  <sup>3</sup><a href="https://aws.amazon.com/cn/rekognition/">Amazon Rekognition</a>
 	</div>
 	<ul id="tabs">
-		<li><a href="./LAB.html" name="#tab1">LAB</a></li>
-		<li><a href="./WFLW.html" name="#tab2">WFLW</a></li>  
+		<li><a href="./ReenactGAN.html" name="#tab1">ReenactGAN</a></li>
+		<!-- <li><a href="./WFLW.html" name="#tab2">WFLW</a></li>   -->
 	</ul>
 	</div>
 
@@ -50,7 +46,7 @@
 <!-- 	<div class="venue">International Conference on Computer Vision (<a href="http://pamitc.org/iccv15/" target="_blank">ICCV</a>) 2015, Santiago, Chile</div> -->
 
       
-      <center><img src="./support/index.png" border="0" width="100%"></center>
+      <center><img src="./support/index.png" border="0" width="60%"></center>
       <div class="section abstract">
 	<h2>Abstract</h2>
 	<p>
@@ -80,17 +76,16 @@ We present a novel learning-based framework for face reenactment. The proposed m
 	    </div>
 	    
 
-
 <br>
  <div class="section list">
 	<h2>Citation</h2>
 	
 	<div class="section bibtex">
-	  <pre>@inproceedings{wayne2018lab,
- author = {Wu, Wayne and Qian, Chen and Yang, Shuo and Wang, Quan and Cai, Yici and Zhou, Qiang},
- title = {Look at Boundary: A Boundary-Aware Face Alignment Algorithm},
- booktitle = {CVPR},
- month = June,
+	  <pre>@inproceedings{wayne2018reenactgan,
+ author = {Wu, Wayne and Zhang, Yunxuan and Li, Cheng and Qian, Chen and Loy, Chen Change},
+ title = {ReenactGAN: Learning to Reenact Faces via Boundary Transfer},
+ booktitle = {ECCV},
+ month = September,
  year = {2018}
 } 
 	</pre>
