@@ -1,0 +1,7 @@
+@inproceedings{wayne2019transgaga,
+ author = {Wu, Wayne and Cao, Kaidi and Li, Cheng and Qian, Chen and Loy, Chen Change},
+ title = {TransGaGa: Geometry-Aware Unsupervised Image-to-Image Translation},
+ booktitle = {CVPR},
+ month = June,
+ year = {2019}
+} 
