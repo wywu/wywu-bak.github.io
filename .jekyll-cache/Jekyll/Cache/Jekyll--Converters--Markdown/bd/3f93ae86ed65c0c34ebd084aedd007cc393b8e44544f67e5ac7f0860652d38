@@ -1,0 +1,598 @@
+I"�V<!-- _pages/publications.md -->
+<div class="publications">
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/jianglin2022styleganhuman-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/jianglin2022styleganhuman-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/jianglin2022styleganhuman-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/jianglin2022styleganhuman.jpg" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="jianglin2022styleganhuman" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">StyleGAN-Human: A Data-Centric Odyssey of Human Generation</div>
+          <!-- Author -->
+          <div class="author">Jianglin Fu,&nbsp;Shikai Li,&nbsp;Yuming Jiang,&nbsp;Kwan-Yee Lin,&nbsp;Chen Qian,&nbsp;Chen Change Loy,&nbsp;
+                  <em>Wayne Wu</em>,&nbsp;and Ziwei Liu
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Technical report, arXiv:2205.15996,</em>  2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2205.15996" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://www.youtube.com/watch?v=nIrb9hwsdcI" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://stylegan-human.github.io/" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/wei2022gnr-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/wei2022gnr-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/wei2022gnr-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/wei2022gnr.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="wei2022gnr" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">Generalizable Neural Performer: Learning Robust Radiance Fields for Human Novel View Synthesis</div>
+          <!-- Author -->
+          <div class="author">Wei Cheng,&nbsp;Su Xu,&nbsp;Jingtan Piao,&nbsp;Chen Qian,&nbsp;
+                  <em>Wayne Wu</em>,&nbsp;Kwan-Yee Lin,&nbsp;and Hongsheng Li
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Technical report, arXiv:2204.11798,</em>  2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2204.11798" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://www.youtube.com/watch?v=2COR4u1ZIuk" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://generalizable-neural-performer.github.io/" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/yuming2022text-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/yuming2022text-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/yuming2022text-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/yuming2022text.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="yuming2022text" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">Text2Human: Text-Driven Controllable Human Image Generation</div>
+          <!-- Author -->
+          <div class="author">Yuming Jiang,&nbsp;Shuai Yang,&nbsp;Haonan Qiu,&nbsp;
+                  <em>Wayne Wu</em>,&nbsp;Chen Change Loy,&nbsp;and Ziwei Liu
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>ACM Transaction on Graphics (SIGGRAPH),</em>  2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2205.15996" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://www.youtube.com/watch?v=yKh4VORA_E0" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://yumingj.github.io/projects/Text2Human.html" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/yanbo2022transeditor-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/yanbo2022transeditor-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/yanbo2022transeditor-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/yanbo2022transeditor.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="yanbo2022transeditor" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">TransEditor: Transformer-Based Dual-Space GAN for Highly Controllable Facial Editing</div>
+          <!-- Author -->
+          <div class="author">Yanbo Xu,&nbsp;Yueqin Yin,&nbsp;Liming Jiang,&nbsp;Qianyi Wu,&nbsp;Chengyao Zheng,&nbsp;Chen Change Loy,&nbsp;Bo Dai,&nbsp;and <em>Wayne Wu</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Conference on Computer Vision and Pattern Recognition (CVPR),</em>  2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2203.17266" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://billyxyb.github.io/TransEditor/" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/liming2022focal-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/liming2022focal-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/liming2022focal-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/liming2022focal.jpeg" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="liming2022focal" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">Focal Frequency Loss for Image Reconstruction and Synthesis</div>
+          <!-- Author -->
+          <div class="author">Liming Jiang,&nbsp;Bo Dai,&nbsp;
+                  <em>Wayne Wu</em>,&nbsp;and Chen Change Loy
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>International Conference on Computer Vision (ICCV),</em>  2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2012.12821" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://www.mmlab-ntu.com/project/ffl/index.html" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/linsen2021everything-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/linsen2021everything-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/linsen2021everything-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/linsen2021everything.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="linsen2021everything" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">Everything’s Talkin’: Pareidolia Face Reenactment</div>
+          <!-- Author -->
+          <div class="author">Linsen Song,&nbsp;
+                  <em>Wayne Wu</em>,&nbsp;Chaoyou Fu,&nbsp;Chen Qian,&nbsp;Chen Change Loy,&nbsp;and Ran He
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>  2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2001.05201" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://www.youtube.com/watch?v=yKh4VORA_E0" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://wywu.github.io/projects/ETT/ETT.html" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/xinya2021evp-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/xinya2021evp-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/xinya2021evp-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/xinya2021evp.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="xinya2021evp" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">Audio-Driven Emotional Video Portraits</div>
+          <!-- Author -->
+          <div class="author">Xinya Ji,&nbsp;Hang Zhou,&nbsp;Kaisiyuan Wang,&nbsp;
+                  <em>Wayne Wu</em>,&nbsp;Chen Change Loy,&nbsp;Xun Cao,&nbsp;and Feng Xu
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>  2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2104.07452" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://www.youtube.com/watch?v=o6LQfLkizbw" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://jixinya.github.io/projects/evp/" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2020</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/kaisiyuan2020mead-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/kaisiyuan2020mead-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/kaisiyuan2020mead-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/kaisiyuan2020mead.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="kaisiyuan2020mead" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">MEAD: A Large-Scale Audio-Visual Dataset for Emotional Talking-Face Generation</div>
+          <!-- Author -->
+          <div class="author">Kaisiyuan Wang,&nbsp;Qianyi Wu,&nbsp;Linsen Song,&nbsp;Zhuoqian Yang,&nbsp;
+                  <em>Wayne Wu</em>,&nbsp;Chen Qian,&nbsp;Ran He,&nbsp;Yu Qiao,&nbsp;and Chen Change Loy
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>European Conference on Computer Vision (ECCV)</em>  2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123660698.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://wywu.github.io/projects/MEAD/MEAD.html" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/liming2020deeperforensics-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/liming2020deeperforensics-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/liming2020deeperforensics-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/liming2020deeperforensics.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="liming2020deeperforensics" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">DeeperForensics-1.0: A Large-Scale Dataset for Real-World Face Forgery Detection</div>
+          <!-- Author -->
+          <div class="author">Liming Jiang,&nbsp;Ren Li,&nbsp;
+                  <em>Wayne Wu</em>,&nbsp;Chen Qian,&nbsp;and Chen Change Loy
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>  2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2001.03024" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://www.youtube.com/watch?v=b6iKqkJht38&amp;feature=emb_imp_woyt" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://liming-jiang.com/projects/DrF1/DrF1.html" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/zhuoqian2020transmomo-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/zhuoqian2020transmomo-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/zhuoqian2020transmomo-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/zhuoqian2020transmomo.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="zhuoqian2020transmomo" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">TransMoMo: Invariance-Driven Unsupervised Video Motion Retargeting</div>
+          <!-- Author -->
+          <div class="author">Zhuoqian Yang,&nbsp;Wentao Zhu,&nbsp;
+                  <em>Wayne Wu</em>,&nbsp;Chen Qian,&nbsp;Qiang Zhou,&nbsp;Bolei Zhou,&nbsp;and Chen Change Loy
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>  2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2003.14401" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://www.youtube.com/watch?v=akbRtnRMkMk&amp;feature=youtu.be" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://yzhq97.github.io/transmomo/" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2019</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/wayne2019transgaga-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/wayne2019transgaga-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/wayne2019transgaga-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/wayne2019transgaga.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="wayne2019transgaga" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">TransGaGa: Geometry-Aware Unsupervised Image-to-Image Translation</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Wayne Wu</em>,&nbsp;Kaidi Cao,&nbsp;Cheng Li,&nbsp;Chen Qian,&nbsp;and Chen Change Loy
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>  2019
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/1904.09571" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://wywu.github.io/projects/TGaGa/TGaGa.html" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2018</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/wayne2018reenactgan-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/wayne2018reenactgan-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/wayne2018reenactgan-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/wayne2018reenactgan.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="wayne2018reenactgan" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">ReenactGAN: Learning to Reenact Faces via Boundary Transfer</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Wayne Wu</em>,&nbsp;Yunxuan Zhang,&nbsp;Cheng Li,&nbsp;Chen Qian,&nbsp;and Chen Change Loy
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>European Conference on Computer Vision (ECCV)</em>  2018
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/1807.11079" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://www.youtube.com/watch?v=LBAfeKrHMys" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://wywu.github.io/projects/ReenactGAN/ReenactGAN.html" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+
+
+        <div class="col-sm-3"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/publication/wayne2018look-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/publication/wayne2018look-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/publication/wayne2018look-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/publication/wayne2018look.png" />
+
+  </picture>
+
+</figure>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="wayne2018look" class="col-sm-9">
+        
+          <!-- Title -->
+          <div class="title">Look at Boundary: A Boundary-Aware Face Alignment Algorithm</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Wayne Wu</em>,&nbsp;Chen Qian,&nbsp;Shuo Yang,&nbsp;Quan Wang,&nbsp;Yici Cai,&nbsp;and Qiang Zhou
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>  2018
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/1805.10483" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="https://www.youtube.com/watch?v=B5IIOYlL4w0&amp;feature=emb_imp_woyt" class="btn btn-sm z-depth-0" role="button">YouTube</a>
+            <a href="https://wywu.github.io/projects/LAB/LAB.html" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+
+</div>
+:ET

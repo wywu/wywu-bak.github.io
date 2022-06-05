@@ -1,7 +1,0 @@
-@article{linsen2020ebt,
-  title={Everybody’s Talkin’: Let Me Talk as You Want},
-  author={Song, Linsen and Wu, Wayne and Qian, Chen and He, Ran and Loy, Chen Change},
-  journal={arXiv preprint},
-  volume={arXiv:},
-  year={2020}
-}

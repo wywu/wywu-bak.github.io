@@ -1,7 +1,0 @@
-@inproceedings{linsen2021ETT,
- author = {Song, Linsen and Wu, Wayne and Fu, Chaoyou and Qian, Chen and Loy, Chen Change and He, Ran},
- title = {TransGaGa: Geometry-Aware Unsupervised Image-to-Image Translation},
- booktitle = {CVPR},
- month = June,
- year = {2021}
-}
